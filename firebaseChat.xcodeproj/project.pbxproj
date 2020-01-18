@@ -138,6 +138,7 @@
 				B8F6C89723D2BF6700D2C106 /* Frameworks */,
 				B8F6C89823D2BF6700D2C106 /* Resources */,
 				DA6CDF69161EA0783259FF75 /* [CP] Embed Pods Frameworks */,
+				49AB051976541B5C03C98A42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +197,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		49AB051976541B5C03C98A42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebaseChat/Pods-firebaseChat-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebaseChat/Pods-firebaseChat-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebaseChat/Pods-firebaseChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		74F24F99356EF159C09A70D3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
