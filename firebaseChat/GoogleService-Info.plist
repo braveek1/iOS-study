@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>547280730373-v4bnin8dqr6oqn8uvhouadvhjsf9dv49.apps.googleusercontent.com</string>
+	<string>547280730373-7k5eh8bsohe3mua0qmet9g38liqo8der.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.547280730373-v4bnin8dqr6oqn8uvhouadvhjsf9dv49</string>
+	<string>com.googleusercontent.apps.547280730373-7k5eh8bsohe3mua0qmet9g38liqo8der</string>
 	<key>API_KEY</key>
 	<string>AIzaSyB4AiQnRJ0W--t-MQD4baclRk6B3q9Ib5g</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,23 +13,23 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>jp.co.tpsinc.iosstudy.3rd.chat</string>
+	<string>jp.co.tpsinc.iosstudy.3rd.chat.firebaseChat</string>
 	<key>PROJECT_ID</key>
 	<string>tps-iosstudy-3rd</string>
 	<key>STORAGE_BUCKET</key>
 	<string>tps-iosstudy-3rd.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:547280730373:ios:eaab6582bee6e79e6a9f6c</string>
+	<string>1:547280730373:ios:1675577f547fe9046a9f6c</string>
 	<key>DATABASE_URL</key>
 	<string>https://tps-iosstudy-3rd.firebaseio.com</string>
 </dict>
