@@ -23,14 +23,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzk-KP-W78">
+                                <rect key="frame" x="165" y="163" width="38" height="30"/>
+                                <state key="normal" title="Login"/>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tzk-KP-W78" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="119" id="unn-lM-JuS"/>
+                            <constraint firstItem="tzk-KP-W78" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="x75-0c-HnB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="136"/>
+        </scene>
+        <!--Login Success View Controller-->
+        <scene sceneID="Hxa-it-8q4">
+            <objects>
+                <viewController storyboardIdentifier="LoginSuccessViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="P5j-d5-yBV" customClass="LoginSuccessViewController" customModule="firebaseChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YCL-QP-pLk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="2ES-Ka-1za"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pYp-VB-s4K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="151"/>
         </scene>
     </scenes>
 </document>
