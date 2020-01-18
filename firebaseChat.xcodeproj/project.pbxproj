@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B8F6C89E23D2BF6700D2C106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F6C89D23D2BF6700D2C106 /* AppDelegate.swift */; };
-		B8F6C8A023D2BF6700D2C106 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F6C89F23D2BF6700D2C106 /* SceneDelegate.swift */; };
 		B8F6C8A223D2BF6700D2C106 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F6C8A123D2BF6700D2C106 /* ViewController.swift */; };
 		B8F6C8A523D2BF6700D2C106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F6C8A323D2BF6700D2C106 /* Main.storyboard */; };
 		B8F6C8A723D2BF6A00D2C106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F6C8A623D2BF6A00D2C106 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		B8F6C89A23D2BF6700D2C106 /* firebaseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8F6C89D23D2BF6700D2C106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8F6C89F23D2BF6700D2C106 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B8F6C8A123D2BF6700D2C106 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B8F6C8A423D2BF6700D2C106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8F6C8A623D2BF6A00D2C106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,8 +54,10 @@
 		B8F6C89C23D2BF6700D2C106 /* firebaseChat */ = {
 			isa = PBXGroup;
 			children = (
-				B8F6C89D23D2BF6700D2C106 /* AppDelegate.swift */,
-				B8F6C89F23D2BF6700D2C106 /* SceneDelegate.swift */,
+				B8F6C8B423D2BF8D00D2C106 /* System */,
+				B8F6C8B323D2BF8200D2C106 /* Resource */,
+				B8F6C8B223D2BF7600D2C106 /* Models */,
+				B8F6C8B123D2BF6F00D2C106 /* Views */,
 				B8F6C8A123D2BF6700D2C106 /* ViewController.swift */,
 				B8F6C8A323D2BF6700D2C106 /* Main.storyboard */,
 				B8F6C8A623D2BF6A00D2C106 /* Assets.xcassets */,
@@ -65,6 +65,35 @@
 				B8F6C8AB23D2BF6A00D2C106 /* Info.plist */,
 			);
 			path = firebaseChat;
+			sourceTree = "<group>";
+		};
+		B8F6C8B123D2BF6F00D2C106 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8F6C8B223D2BF7600D2C106 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B8F6C8B323D2BF8200D2C106 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B8F6C8B423D2BF8D00D2C106 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				B8F6C89D23D2BF6700D2C106 /* AppDelegate.swift */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +169,6 @@
 			files = (
 				B8F6C8A223D2BF6700D2C106 /* ViewController.swift in Sources */,
 				B8F6C89E23D2BF6700D2C106 /* AppDelegate.swift in Sources */,
-				B8F6C8A023D2BF6700D2C106 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNKLP2U2NQ;
 				INFOPLIST_FILE = firebaseChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNKLP2U2NQ;
 				INFOPLIST_FILE = firebaseChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
